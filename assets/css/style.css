@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.line {
+    height: 3px;
+    width: 100%;
+    background: #000;
+}
+
+.header {
+    padding: 20px 100px 0 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title__name {
+    font-weight: 300;
+}
+
+.subtitle__name {
+    font-weight: 500;
+}
+
+.header__img {
+    width: 200px;
+    border-radius: 100%;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.main__list {
+    list-style-type: none;
+}
+
+.main__item {
+    margin-bottom: 30px;
+}
+
+.main__item h3 {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.main__skills {
+    width: 500px;
+    margin-right: 81px;
+}
+
+.main__title {
+    font-weight: 300;   
+}
+
+.main__data {
+    font-weight: 500;
+    font-size: 14px;
+    color: rgb(148, 148, 148);
+}
+
+.main__descr {
+    line-height: 25px;
+}
+
+.main__contacts {
+    width: 300px;
+    color: rgb(148, 148, 148);
+    font-size: 14px;
+}
